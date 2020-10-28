@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VISTA.PROYECTO", "VISTA.PRO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CONTROL.PROYECTO", "CONTROL.PROYECTO\CONTROL.PROYECTO.csproj", "{09CF9004-F12A-44C4-9D7E-423F2C7F7A49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRINCIPAL", "PRINCIPAL\PRINCIPAL.csproj", "{205C62C3-FB27-4053-BC0A-21009FDD0BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRINCIPAL", "PRINCIPAL\PRINCIPAL.csproj", "{205C62C3-FB27-4053-BC0A-21009FDD0BB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2DCC2269-005E-4621-90DF-92344A48A140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraTests", "CalculadoraTests\CalculadoraTests.csproj", "{9741E6A5-F425-4F4B-95DA-DB251DB83EB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{205C62C3-FB27-4053-BC0A-21009FDD0BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205C62C3-FB27-4053-BC0A-21009FDD0BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205C62C3-FB27-4053-BC0A-21009FDD0BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9741E6A5-F425-4F4B-95DA-DB251DB83EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9741E6A5-F425-4F4B-95DA-DB251DB83EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9741E6A5-F425-4F4B-95DA-DB251DB83EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9741E6A5-F425-4F4B-95DA-DB251DB83EB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9741E6A5-F425-4F4B-95DA-DB251DB83EB4} = {2DCC2269-005E-4621-90DF-92344A48A140}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EA30221-D852-46BD-B11E-EB7828A38280}

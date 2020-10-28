@@ -60,7 +60,7 @@ namespace MODELO.PROYECTO
                     serie += " -" + i;
                 } else
                 {
-                    serie += i;
+                    serie += " " + i;
                 }
             }
 
