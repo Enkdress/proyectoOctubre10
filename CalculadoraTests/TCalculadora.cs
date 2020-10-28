@@ -70,5 +70,16 @@ namespace CalculadoraTests
 
             Assert.IsTrue(result < n2 && result > n1);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void AleatorioFacilException()
+        {
+            double n1 = 5;
+            double n2 = 1;
+            MCalculadora mCalc = new MCalculadora(n1, n2);
+
+            int randNumber = mCalc.AleatorioFacil();
+        }
     }
 }

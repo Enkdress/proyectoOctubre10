@@ -38,7 +38,10 @@ namespace MODELO.PROYECTO
             this._Number1 = n1;
             this._Number2 = n2;
         }
-
+        public void shit ()
+        {
+            throw new Exception();
+        }
         public double Potencia() => Math.Pow(this._Number1, this._Number2);
         public double ValorAbsoluto() => Math.Abs(this._Number2);
         public double Factorial()
@@ -71,8 +74,11 @@ namespace MODELO.PROYECTO
             int n1 = Int32.Parse(this._Number1.ToString());
             int n2 = Int32.Parse(this._Number2.ToString());
             Random rnd = new Random();
+            int rndNumber;
+            if ( n2 < n1 ) throw new ArgumentOutOfRangeException("Invalid values", "Number 2 cant be gratter than number 1");
+            else rndNumber = rnd.Next(n1, n2);
 
-            return rnd.Next(n1, n2);
+            return rndNumber;
         }
         public double Sumar() => this._Number1 + this._Number2;
 
