@@ -7,18 +7,28 @@ namespace VISTA.PROYECTO
     public partial class VCalculadora : Form
     {
         VMenu vMenu;
-        CMenu cMenu;
+        CCalculadora cCalculadora;
         public VCalculadora(VMenu menu)
         {
             InitializeComponent();
             this.vMenu = menu;
-            this.cMenu = new CMenu();
+            this.cCalculadora = new CCalculadora();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Hide();
             vMenu.Show();
+        }
+
+        private void VCalculadora_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSuma_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
