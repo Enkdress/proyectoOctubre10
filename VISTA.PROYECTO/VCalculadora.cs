@@ -1,21 +1,24 @@
 ﻿using System;
 using System.Windows.Forms;
+using CONTROL.PROYECTO;
 
 namespace VISTA.PROYECTO
 {
     public partial class VCalculadora : Form
     {
-        VMenu menu;
+        VMenu vMenu;
+        CMenu cMenu;
         public VCalculadora(VMenu menu)
         {
             InitializeComponent();
-            this.menu = menu;
+            this.vMenu = menu;
+            this.cMenu = new CMenu();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu.Show();
+            vMenu.Show();
         }
     }
 }

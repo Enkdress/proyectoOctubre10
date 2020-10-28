@@ -2,7 +2,7 @@
 
 namespace MODELO.PROYECTO
 {
-    public class Calculadora
+    public class MCalculadora
     {
         private double _Number1;
         public double Number1
@@ -25,7 +25,7 @@ namespace MODELO.PROYECTO
             set => _Resultado = value;
         }
 
-        public Calculadora(double n1, double n2, double r)
+        public MCalculadora(double n1, double n2, double r)
         {
             this._Number1 = n1;
             this._Number2 = n2;
