@@ -108,7 +108,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(21, 272);
+            this.label4.Location = new System.Drawing.Point(21, 354);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 31);
             this.label4.TabIndex = 6;
@@ -119,7 +119,7 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.LightGreen;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblResultado.Location = new System.Drawing.Point(190, 272);
+            this.lblResultado.Location = new System.Drawing.Point(190, 354);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 25);
             this.lblResultado.TabIndex = 7;
@@ -151,6 +151,7 @@
             this.btnPotencia.TabIndex = 1;
             this.btnPotencia.Text = "Potencia ";
             this.btnPotencia.UseVisualStyleBackColor = false;
+            this.btnPotencia.Click += new System.EventHandler(this.btnPotencia_Click);
             // 
             // btnModulo
             // 
@@ -164,6 +165,7 @@
             this.btnModulo.TabIndex = 1;
             this.btnModulo.Text = "Módulo";
             this.btnModulo.UseVisualStyleBackColor = false;
+            this.btnModulo.Click += new System.EventHandler(this.btnModulo_Click);
             // 
             // btnMayor
             // 
@@ -177,6 +179,7 @@
             this.btnMayor.TabIndex = 1;
             this.btnMayor.Text = "El mayor";
             this.btnMayor.UseVisualStyleBackColor = false;
+            this.btnMayor.Click += new System.EventHandler(this.btnMayor_Click);
             // 
             // btnFactorial
             // 
@@ -190,6 +193,7 @@
             this.btnFactorial.TabIndex = 1;
             this.btnFactorial.Text = "Factorial";
             this.btnFactorial.UseVisualStyleBackColor = false;
+            this.btnFactorial.Click += new System.EventHandler(this.btnFactorial_Click);
             // 
             // btnAbsoluto
             // 
@@ -203,6 +207,7 @@
             this.btnAbsoluto.TabIndex = 1;
             this.btnAbsoluto.Text = "Valor absoluto";
             this.btnAbsoluto.UseVisualStyleBackColor = false;
+            this.btnAbsoluto.Click += new System.EventHandler(this.btnAbsoluto_Click);
             // 
             // btnSerie1
             // 
@@ -216,6 +221,7 @@
             this.btnSerie1.TabIndex = 1;
             this.btnSerie1.Text = "Serie 1";
             this.btnSerie1.UseVisualStyleBackColor = false;
+            this.btnSerie1.Click += new System.EventHandler(this.btnSerie1_Click);
             // 
             // btnSumatoria
             // 
@@ -230,6 +236,7 @@
             this.btnSumatoria.TabIndex = 1;
             this.btnSumatoria.Text = "Sumatoria";
             this.btnSumatoria.UseVisualStyleBackColor = false;
+            this.btnSumatoria.Click += new System.EventHandler(this.btnSumatoria_Click);
             // 
             // btnSerie2
             // 
@@ -243,6 +250,7 @@
             this.btnSerie2.TabIndex = 1;
             this.btnSerie2.Text = "Serie 2";
             this.btnSerie2.UseVisualStyleBackColor = false;
+            this.btnSerie2.Click += new System.EventHandler(this.btnSerie2_Click);
             // 
             // btnAleatorio
             // 
@@ -257,6 +265,7 @@
             this.btnAleatorio.TabIndex = 1;
             this.btnAleatorio.Text = "Aleatorio fácil";
             this.btnAleatorio.UseVisualStyleBackColor = false;
+            this.btnAleatorio.Click += new System.EventHandler(this.btnAleatorio_Click);
             // 
             // VCalculadora
             // 
@@ -284,7 +293,6 @@
             this.Controls.Add(this.label1);
             this.Name = "VCalculadora";
             this.Text = "Calculadora";
-            this.Load += new System.EventHandler(this.VCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
