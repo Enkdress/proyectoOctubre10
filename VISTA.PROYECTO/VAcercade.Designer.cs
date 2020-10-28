@@ -42,9 +42,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(139, 128);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 23);
+            this.label1.Size = new System.Drawing.Size(349, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "® Sergio Andres Correa 2020";
+            this.label1.Text = "® Sergio Andres Correa, Carlos Ortigoza 2020";
             // 
             // label2
             // 
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 189);
+            this.ClientSize = new System.Drawing.Size(526, 189);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

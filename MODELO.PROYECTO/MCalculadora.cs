@@ -74,5 +74,36 @@ namespace MODELO.PROYECTO
 
             return rnd.Next(n1, n2);
         }
+        public double Sumar() => this._Number1 + this._Number2;
+
+        public double Modulo() => this._Number1 % this._Number2;
+
+        public double NMayor() => (this._Number1 > this._Number2) ? this._Number1 : this._Number2;
+
+        public String Serie2()
+        {
+            String serie = "";
+            for (int i = 1; i <= this._Number2; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    serie += "N";
+                }
+                else
+                {
+                    serie += " " + i;
+                }
+            }
+
+            return serie;
+        }
+        public double Sumatoria() {
+            double suma = 0;
+            while (this._Number1 <= this._Number2) {
+              suma += this._Number1;
+              this._Number1 += 1;
+            }
+            return suma;
+        }
     }
 }
